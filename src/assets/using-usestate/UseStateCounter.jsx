@@ -8,7 +8,8 @@ const UseStateCounter = () => {
   const [counter, setCounter] = useState(10);
      return (
           <>
-               <h2>using useState hook</h2>
+               <h2 className='text-blue-400 text-4xl'>using useState hook</h2>
+               <h3>1. Increasing Counter</h3>
                <h3>{counter}</h3>
                <button className='border border-stone-500 p-2 m-2' id='counterBtn' onClick={CounterHandler}>Increase Counter</button>
           </>
